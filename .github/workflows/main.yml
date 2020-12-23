@@ -47,7 +47,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: ScanResults
-        path: results1.json
+        path: results.json
     - name: Convert pipeline scan output to SARIF format 
       id: convert
       uses: veracode/veracode-pipeline-scan-results-to-sarif@master

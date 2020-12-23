@@ -28,7 +28,7 @@ jobs:
         recursive: true
         dest: veracode-pipeline-scan-results-to-sarif.zip
           
-    - uses: actions/upload-artifact@2
+    - uses: actions/upload-artifact@v2
       with:
         name: my-artifact
         path: veracode-pipeline-scan-results-to-sarif.zip

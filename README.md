@@ -1,1 +1,1 @@
-# A Demo Chat application using nodejs, socket-io and express
+# A Demo Chat application using nodejs, express and socket.io
